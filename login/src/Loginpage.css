@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Raleway:wght@300;400;600&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  background: #1e1e1e;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #6b02ff 0%, #8e44ad 100%), url('https://source.unsplash.com/1600x900/?concert,stage') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-form {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  color: #fff;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  color: #6b02ff;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #6b02ff;
+  border-radius: 5px;
+  font-size: 16px;
+  background: #2c2c2c;
+  color: #fff;
+  box-sizing: border-box; /* Ensure padding is included in the element's width and height */
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #a569bd;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box; /* Ensure padding is included in the element's width and height */
+  transition: background-color 0.3s ease;
+}
+
+.login-button {
+  background-color: #6b02ff;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.login-button:hover {
+  background-color: #8e44ad;
+}
+
+.forgot-password {
+  margin-top: 15px;
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.forgot-password:hover {
+  color: #a569bd;
+}
+
+.signup-prompt {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.signup-prompt a {
+  color: #6b02ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-prompt a:hover {
+  text-decoration: underline;
+}
